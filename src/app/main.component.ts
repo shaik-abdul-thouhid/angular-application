@@ -7,6 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class MainComponent implements OnInit {
 	count: Observable<number> = new Observable();
+	title: string = '';
 	constructor() {}
 	ngOnInit(): void {}
 }
